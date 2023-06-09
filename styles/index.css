@@ -358,3 +358,21 @@ button:active {
     display: none;
   }
 }
+
+/* content.html styles */
+
+iframe, .video {
+margin-top: 10px;
+  text-align: center;
+}
+
+.content-sub {
+  max-width: 75%;
+}
+
+#content-title {
+  max-width: 100%;
+  text-align: center;
+  margin: 15px 5%;
+  justify-items: center;
+}
