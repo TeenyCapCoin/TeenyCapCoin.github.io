@@ -33,6 +33,10 @@ a:hover {
   text-decoration: underline;
 }
 
+#countdown {
+  max-width: 90%;
+}
+
 nav {
   background-color: #aadfed;
   height: 57px;
