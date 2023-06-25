@@ -33,11 +33,6 @@ a:hover {
   text-decoration: underline;
 }
 
-#countdown {
-  max-width: 90%;
-  margin: 0 auto;
-}
-
 nav {
   background-color: #aadfed;
   height: 57px;
@@ -114,23 +109,26 @@ h2 {
 }
 
 .contract button {
+  min-width: 280px;
   margin: 10px auto;
   padding: 7px;
-  display: block;
-  background-image: linear-gradient(#aadfed, #7ba1ab);
+  display: inline-block;
+  background-color: #d95a60;
   border: 2px solid white;
   border-radius: 8px;
-  font-weight: 600;
+  font-weight: 500;
   cursor: pointer;
   transition: 0.1s;
-  color: #fff;
+  color: white;
+  font-size: 0.95rem;
 }
 
+
 button:hover {
-  background-image: linear-gradient(#7ba1ab, #aadfed);
-  border: 2px solid #bebdbd;
+  background-color: #d8878b;
   scale: 0.98;
   transition: 0.1s;
+  border: 2px solid #aadfed;
 }
 button:active {
   background-image: linear-gradient(#333, #333);
@@ -150,7 +148,7 @@ button:active {
 }
 
 #launch-timer {
-  max-width: 75%;
+  width: 75%;
   background-color: #d95a60;
   color: #fff;
   text-align: center;
@@ -198,6 +196,11 @@ button:active {
   margin-bottom: 2rem;
   list-style-type: decimal-leading-zero;
   color: #333;
+}
+
+#countdown {
+  max-width: 90%;
+  margin: 0 auto;
 }
 
 .wrapper {
@@ -315,10 +318,7 @@ button:active {
 }
 
 @media only screen and (max-width: 600px) {
-  #launch-timer .pancakeswaplogo {
-    max-width: 75%;
-  }
-
+  
   .logo {
     display: none;
   }
@@ -346,7 +346,7 @@ button:active {
   #launch-timer,
   #documentation,
   #socials {
-    width: 95%;
+    width: 95% !important;
   }
   #teeny-path li {
     list-style-type: none;
