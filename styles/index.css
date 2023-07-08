@@ -381,3 +381,12 @@ margin-top: 10px;
   margin: 15px 5%;
   justify-items: center;
 }
+
+.friendlogo {
+  color: #fff;
+  text-decoration: none;
+}
+.friendlogo p {
+  padding-bottom: 10px;
+  font-weight: 600;
+}
