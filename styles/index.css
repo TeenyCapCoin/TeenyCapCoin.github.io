@@ -387,6 +387,8 @@ margin-top: 10px;
   text-decoration: none;
 }
 .friendlogo p {
+  margin: auto 0;
   padding-bottom: 10px;
   font-weight: 600;
+  text-align: center;
 }
